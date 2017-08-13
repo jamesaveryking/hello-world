@@ -1,0 +1,93 @@
+body{
+	background-color:red;
+}
+
+.jumbotron{
+	background-color: white;
+	color: blue;
+	width: 100%;
+}
+
+
+h2{
+	font: bold 35px/35px Georgia,serif;
+	color:blue;
+	text-decoration:underline;
+}
+
+h3{
+	color:blue;
+	font-style:bold;
+	text-align:center;
+}
+
+p{
+	text-align:center;
+	font-size:53px;
+	color:red;
+	text-decoration:underline;
+	font: italic bold 10px/10px Georgia,serif;
+}
+
+.Menu-Bar{
+	color:blue;
+	background-color:white;
+}
+
+.active{
+	color:red;
+}
+
+.well.well-lg{
+	background-color:blue;
+}
+
+.well{
+	background-color:white;
+}
+
+.contact_information{
+	font-size:30px;
+	color:blue;
+}
+
+.btn.btn-default{
+	width:100%;
+	background-color:white;
+	color:red;
+}
+
+.btn.btn-default:hover{
+	width:100%;
+	background-color:green;
+	color:white;
+}
+
+label{
+	color:white;
+}
+
+.login{
+	text-decoration:none;
+	color:black;
+}
+
+.login:hover{
+	text-decoration:none;
+	color:black;
+}
+
+/*Below needs to be updated to work on menu*/
+.navbar.navbar-nav{
+	background-color:white;
+	color:red;
+}
+
+
+/*
+#map-canvas {
+	height: 400px;
+    width: 100%;
+	margin-bottom: 15px;
+	border: 2px solid #fff;
+}*/

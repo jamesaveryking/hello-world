@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bradley's</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom_styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">		
+			<div class="row">
+			  <div class="col-sm-10"><h2>Bradley's Tractor & Services</h2></div>
+			  <div class="col-sm-2"><h7>(770)769-4723</h7><br><h8>5665 Joe Frank Harris Parkway Adairsville</h8></div>
+			</div>
+		</div>	
+	</div>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bradleys_navbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <a class="navbar-brand" href="#">Bradley's Logo Image</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bradleys_navbar">
+		  <ul class="nav navbar-nav">
+			  <li class="active"><a href="#">Contact</a></li>
+			  <li><a href="#">Location</a></li>
+			  <li><a href="#">Products</a></li>
+			  <li><a href="#">About</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	<div class="container">
+		<div class="well well-lg">
+			<div class="well"><h3>Email Us Your Repair Details Before You Visit</h3></div>
+			<form>
+			  <div class="form-group">
+				<label for="customer_name">Your Name:</label>
+				<input type="text" class="form-control" id="customer_name">
+			  </div>
+			  <div class="form-group">
+				<label for="phone_number">Phone Number:</label>
+				<input type="text" class="form-control" id="phone_number">
+			  </div>
+			  <div class="form-group">
+				<label for="email">Email address:</label>
+				<input type="email" class="form-control" id="email">
+			  </div>
+			  <div class="form-group">
+				<label for="engine_manufacturer">Engine Manufacturer and Model Number:</label>
+				<input type="text" class="form-control" id="engine_manufacturer">
+			  </div>
+			  <div class="form-group">
+				  <label for="problem_description">Problem Description: (Any and all observations such as sounds, color of smoke, etc.)</label>
+				  <textarea class="form-control" rows="5" id="problem_description"></textarea>
+			  </div>
+			  <div class="upload">
+				<label for="upload_picture">Picture Upload (Please Use .jpg or .png File Extensions):</label>
+				<input type="file" class="form-control" id="upload_picture">
+			  </div>
+			  <br><br>
+			  <div class="g-recaptcha" data-sitekey="6LeZDigUAAAAAPDrcpFboNW84ck-LNGvXSS6Bfuu"></div>
+			  <br><br>
+			  <button type="submit" class="btn btn-default">Send Email</button>
+			</form>
+		</div>
+		<div class="well well-lg">
+			<div class="contact_information">
+				<div class="well">Email: bradleysservicecenter357@mail.com<br>Address: 5665 Joe Frank Harris Parkway Adairsville Georgia<br>Phone: (770)769-4723</div>			
+			</div>
+		</div>
+	</div>
+</body>
+</html>

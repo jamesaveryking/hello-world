@@ -1,0 +1,2 @@
+[01-Aug-2017 19:12:11 UTC] PHP Parse error:  syntax error, unexpected 'load' (T_STRING), expecting ',' or ';' in /home/jamesaveryking/public_html/bradleys/location_body.php on line 38
+[01-Aug-2017 19:17:39 UTC] PHP Parse error:  syntax error, unexpected 'map' (T_STRING), expecting ',' or ';' in /home/jamesaveryking/public_html/bradleys/location_body.php on line 21
